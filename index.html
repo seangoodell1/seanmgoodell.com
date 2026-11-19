@@ -4,68 +4,96 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sean Goodell | Full-Cycle Sales</title>
-<meta name="description" content="Sean Goodell: full-cycle sales for e-commerce software and services.">
+<meta name="description" content="Sean Goodell: full-cycle sales for e-commerce software and services. Irvine, CA.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f8fafd;--ink:#0b0f1a;--muted:#46648c;--blue:#4aa0e6;--line:#d5dfec;--tint:#e8f2fc;--card:#fbfcfe}
+:root{--bg:#f4f8fc;--ink:#0b0f1a;--muted:#255b8a;--blue:#0a9de6;--line:#b9d3e8;--tint:#e1f1fb;--card:#f8fbfe}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:90px}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.6}
+h1,h2,h3,.brand{font-family:"Space Grotesk",Inter,system-ui,sans-serif}
 a{color:inherit}
 :focus-visible{outline:3px solid var(--blue);outline-offset:3px}
-header{position:sticky;top:0;z-index:5;background:rgba(248,250,253,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.bar{max-width:1120px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:600;font-size:1.6rem;letter-spacing:-.03em}
-.brand svg{width:44px;height:44px}
+header{position:sticky;top:0;z-index:5;background:rgba(244,248,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar,main,.foot{max-width:1120px;margin:0 auto;padding-left:24px;padding-right:24px}
+.bar{padding-top:14px;padding-bottom:14px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:600;font-size:1.55rem;letter-spacing:-.03em}
+.brand svg{width:42px;height:42px}
 nav{display:flex;align-items:center;gap:28px}
 nav a{text-decoration:none;color:var(--muted);font-weight:500}
 nav a:hover{color:var(--ink)}
 nav .btn-o{border:1.5px solid var(--blue);color:var(--blue);padding:10px 22px}
-main{max-width:1120px;margin:0 auto;padding:0 24px}
-.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;align-items:center;padding:72px 0 88px}
-.pill{display:inline-block;background:var(--tint);color:var(--blue);border:1px solid #c7ddf3;border-radius:999px;padding:8px 20px;font-weight:500;font-size:.95rem}
-h1{font-size:clamp(2.8rem,7vw,5.2rem);line-height:1.02;letter-spacing:-.04em;font-weight:800;margin:28px 0 20px}
-.tag{font-size:clamp(1.4rem,3vw,2rem);color:var(--muted);font-weight:500;margin:0 0 24px}
-.lead{color:var(--muted);font-size:1.15rem;max-width:34em;margin:0 0 36px}
-.cta{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
-.btn{display:inline-block;text-decoration:none;font-weight:600;border-radius:999px;padding:16px 30px}
-.btn-p{background:var(--blue);color:#fff;box-shadow:0 8px 20px rgba(74,160,230,.35)}
+.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;align-items:center;padding:64px 0 72px}
+.pill{display:inline-block;background:var(--tint);color:var(--blue);border:1px solid var(--line);border-radius:999px;padding:8px 20px;font-weight:500;font-size:.9rem}
+h1{font-size:clamp(2.8rem,7vw,5rem);line-height:1.02;letter-spacing:-.04em;font-weight:700;margin:26px 0 18px}
+.tag{font-family:"Space Grotesk",sans-serif;font-size:clamp(1.4rem,3vw,1.9rem);color:var(--muted);font-weight:500;margin:0 0 22px}
+.lead{color:var(--muted);font-size:1.1rem;max-width:34em;margin:0 0 32px}
+.cta{display:flex;flex-wrap:wrap;gap:16px}
+.btn{display:inline-block;text-decoration:none;font-weight:600;border-radius:999px;padding:15px 28px}
+.btn-p{background:var(--blue);color:#fff;box-shadow:0 8px 20px rgba(10,157,230,.3)}
 .btn-s{border:1px solid var(--line);background:var(--card)}
 .btn-o{border-radius:2px}
-.note{color:var(--muted);font-size:.9rem;margin:18px 0 0}
+.note{color:var(--muted);font-size:.85rem;margin:16px 0 0}
 .photo{position:relative}
-.photo img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:28px;background:var(--tint);box-shadow:0 20px 50px rgba(30,60,100,.18)}
-.badge{position:absolute;left:8%;right:-4%;bottom:-28px;background:#fff;border-radius:18px;padding:16px 22px;display:flex;gap:16px;align-items:center;box-shadow:0 12px 30px rgba(30,60,100,.15)}
-.badge b{display:block;font-size:1.3rem;letter-spacing:-.02em}
-.badge span{color:var(--muted);font-size:.95rem}
-.badge i{width:48px;height:48px;border-radius:12px;background:var(--tint);display:grid;place-items:center;flex:none}
-section{padding:72px 0;border-top:1px solid var(--line)}
-h2{font-size:2.2rem;letter-spacing:-.03em;margin:0 0 36px}
-.job{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:36px 40px;margin-bottom:28px}
-.job-h{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:flex-start}
-.job h3{font-size:1.7rem;letter-spacing:-.02em;margin:0}
-.role{color:var(--blue);font-weight:500;margin:4px 0 16px}
-.dates{border:1px solid var(--line);border-radius:999px;padding:8px 22px;color:var(--muted);font-weight:500;font-size:.95rem}
-.job p{color:var(--muted);font-size:1.1rem;margin:0 0 20px}
+.photo img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 25%;border-radius:28px;background:var(--tint);box-shadow:0 20px 50px rgba(30,60,100,.18)}
+.badge{position:absolute;left:6%;right:-4%;bottom:-26px;background:#fff;border-radius:18px;padding:14px 20px;display:flex;gap:16px;align-items:center;box-shadow:0 12px 30px rgba(30,60,100,.15)}
+.badge b{display:block;font-family:"Space Grotesk",sans-serif;font-size:1.25rem}
+.badge span{color:var(--muted);font-size:.9rem}
+.badge i{width:46px;height:46px;border-radius:12px;background:var(--tint);display:grid;place-items:center;flex:none}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:20px;background:var(--card);margin-bottom:24px}
+.stats div{padding:26px 24px;border-left:1px solid var(--line)}
+.stats div:first-child{border-left:0}
+.stats b{display:block;font-family:"Space Grotesk",sans-serif;font-size:2rem;letter-spacing:-.03em;line-height:1.1}
+.stats span{color:var(--muted);font-size:.92rem;display:block;margin-top:6px}
+section{padding:72px 0}
+h2{font-size:2.3rem;letter-spacing:-.03em;margin:0 0 12px}
+.sub{color:var(--muted);font-size:1.1rem;max-width:36em;margin:0 0 36px}
+.job{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:34px 38px;margin-bottom:24px}
+.job-h{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.job h3{font-size:1.65rem;letter-spacing:-.02em;margin:0}
+.role{color:var(--blue);font-weight:500;margin:2px 0 14px}
+.dates{align-self:flex-start;border:1px solid var(--line);border-radius:999px;padding:7px 20px;color:var(--muted);font-weight:500;font-size:.92rem}
+.job p{color:var(--muted);font-size:1.05rem;margin:0 0 16px}
 .job ul{list-style:none;margin:0;padding:0}
-.job li{display:flex;gap:14px;margin:12px 0}
-.job li:before{content:"";flex:none;width:22px;height:22px;margin-top:3px;border:2px solid var(--blue);border-radius:50%;background:no-repeat center/12px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2.5 6.5l2.3 2.3 4.7-5' fill='none' stroke='%234aa0e6' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
-.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
-.skills div{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:28px}
-.skills h3{margin:0 0 12px;font-size:1.2rem}
-.skills p{margin:0;color:var(--muted)}
-.about p{max-width:42em;color:var(--muted);font-size:1.15rem}
-footer{border-top:1px solid var(--line);padding:32px 24px;text-align:center;color:var(--muted);font-size:.9rem}
-@media(max-width:820px){.hero{grid-template-columns:1fr;padding-top:40px}.photo{order:-1;max-width:420px}.badge{right:4%}nav a:not(.btn-o){display:none}.job{padding:28px 24px}}
+.job li{display:flex;gap:14px;margin:11px 0}
+.job li:before{content:"";flex:none;width:22px;height:22px;margin-top:3px;border:2px solid var(--blue);border-radius:50%;background:no-repeat center/12px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2.5 6.5l2.3 2.3 4.7-5' fill='none' stroke='%230a9de6' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+.sub-role{border-top:1px solid var(--line);margin-top:22px;padding-top:18px}
+.sub-role .role{margin:0 0 4px}
+.sub-role .d{color:var(--muted);font-size:.92rem;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{border:1px solid var(--line);border-radius:22px;padding:28px;background:var(--card)}
+.card h3{font-size:1.25rem;margin:0 0 18px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips span{border:1px solid var(--line);border-radius:999px;padding:6px 16px;font-size:.88rem;font-weight:500;background:#fff}
+.chips .hl{background:var(--tint);border-color:var(--blue);color:var(--muted)}
+.about{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:start}
+.about p{color:var(--muted);font-size:1.1rem;margin:0 0 18px;max-width:36em}
+.edu h3{font-size:1.25rem;margin:0 0 6px}
+.edu p{margin:0;font-size:1rem}
+.edu .yr{color:var(--blue);font-weight:500;margin-bottom:10px}
+.band{border-radius:28px;padding:64px 32px;text-align:center;color:#fff;background:radial-gradient(rgba(255,255,255,.14) 1px,transparent 1.5px) 0 0/22px 22px,linear-gradient(135deg,#0634d6,#0a9de6)}
+.band h2{color:#fff;margin:0 0 14px}
+.band p{max-width:34em;margin:0 auto 30px;opacity:.95}
+.band .btn{background:#fff;color:var(--ink);box-shadow:0 10px 28px rgba(0,20,80,.3)}
+.band small{display:block;margin-top:22px;font-size:.88rem;opacity:.9}
+.band small a{color:#fff}
+.foot{display:flex;justify-content:space-between;align-items:flex-start;gap:32px;flex-wrap:wrap;padding-top:48px;padding-bottom:48px}
+.foot h3{font-size:1.4rem;margin:0 0 6px}
+.foot p{margin:0 0 10px;color:var(--muted);font-size:.95rem}
+.foot nav{gap:26px;font-size:.95rem}
+.icons{display:flex;gap:12px}
+.icons a{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;color:var(--muted)}
+.icons a:hover{color:var(--blue);border-color:var(--blue)}
+@media(max-width:860px){.hero,.about{grid-template-columns:1fr}.hero{padding-top:36px}.photo{order:-1;max-width:420px}.badge{right:4%}.cards{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.stats div:nth-child(3){border-left:0}.stats div:nth-child(n+3){border-top:1px solid var(--line)}nav a:not(.btn-o){display:none}.foot nav a{display:inline}.job{padding:26px 22px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
 <header><div class="bar">
   <a class="brand" href="#home" aria-label="Sean Goodell, home">
-    <svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#4aa0e6"/><text x="24" y="33" text-anchor="middle" font-family="Inter,sans-serif" font-weight="800" font-size="24" fill="#fff">SG</text></svg>
+    <svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#0a9de6"/><text x="24" y="33" text-anchor="middle" font-family="Space Grotesk,sans-serif" font-weight="700" font-size="24" fill="#fff">SG</text></svg>
     Sean Goodell
   </a>
   <nav aria-label="Main">
@@ -88,51 +116,121 @@ footer{border-top:1px solid var(--line);padding:32px 24px;text-align:center;colo
     <p class="note">PDF, updated for 2026</p>
   </div>
   <div class="photo">
-    <img src="photo.jpg" alt="Portrait of Sean Goodell" onerror="this.style.visibility='hidden'">
+    <img src="photo.jpg" alt="Portrait of Sean Goodell">
     <div class="badge">
-      <i aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4aa0e6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></i>
+      <i aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0a9de6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></i>
       <div><b>101% median quota</b><span>Current role, Silk Commerce</span></div>
     </div>
   </div>
 </div>
 
+<div class="stats" role="list">
+  <div role="listitem"><b>124%</b><span>Peak quota attainment at Silk Commerce</span></div>
+  <div role="listitem"><b>50%</b><span>Pipeline growth in 6 months as BlueSwitch's first BD rep</span></div>
+  <div role="listitem"><b>+15%</b><span>Beat a $2MM quarterly target at Corra Agency</span></div>
+  <div role="listitem"><b>3</b><span>Direct reports managed and mentored</span></div>
+</div>
+
 <section id="experience">
   <h2>Experience</h2>
+  <p class="sub">Five years in e-commerce sales, from outbound prospecting to owning the full sales cycle.</p>
+
   <article class="job">
     <div class="job-h"><div><h3>Silk Commerce</h3><p class="role">Account Manager</p></div><span class="dates">March 2025 — Present</span></div>
-    <p>Own the full sales cycle for e-commerce software and services, from outbound prospecting and qualification through contract negotiation and close.</p>
+    <p>Own the full sales cycle for software and services, from outbound prospecting through contract negotiation and close.</p>
     <ul>
       <li>Delivered median quota attainment of 101%, with a peak of 124%.</li>
-      <li>Launched the company's first cold outreach campaign — it produced a closed-won deal and the business case to hire a BDR team.</li>
+      <li>Launched outbound initiatives with the company's first cold outreach campaign, which resulted in a closed-won deal and the hiring of a BDR team.</li>
       <li>Co-sell with platform partners BigCommerce, Shopify, and Adobe to win and expand e-commerce accounts.</li>
-      <li>Manage pipeline and outreach with HubSpot, LinkedIn Sales Navigator, and Apollo.</li>
+      <li>Manage pipeline and outreach using HubSpot, LinkedIn, and Apollo.</li>
     </ul>
   </article>
+
   <article class="job">
     <div class="job-h"><div><h3>Sehi Computer Products</h3><p class="role">Field Account Manager</p></div><span class="dates">March 2024 — March 2025</span></div>
-    <p>Managed a portfolio of accounts with a focus on sales growth and customer satisfaction.</p>
     <ul>
-      <li>Exceeded sales targets by pairing market insights with tailored product recommendations.</li>
-      <li>Cultivated and maintained key client relationships that drove measurable gains in retention.</li>
+      <li>Exceeded sales targets by leveraging market insights and providing tailored product recommendations.</li>
+      <li>Managed a portfolio of accounts, focusing on sales growth and customer satisfaction.</li>
+      <li>Cultivated and maintained relationships with key clients, resulting in increased retention.</li>
     </ul>
+  </article>
+
+  <article class="job">
+    <div class="job-h"><div><h3>Jack Henry</h3><p class="role">Warehouse/Manufacturing Support (Contract)</p></div><span class="dates">October 2023 — March 2024</span></div>
+    <ul>
+      <li>Produced, packaged, and labeled products prior to shipping, and handled order tracking and order management in a temporary role while searching for my next permanent sales role.</li>
+    </ul>
+  </article>
+
+  <article class="job">
+    <div class="job-h"><div><h3>BlueSwitch Agency</h3><p class="role">Business Development Specialist</p></div><span class="dates">February 2023 — July 2023</span></div>
+    <ul>
+      <li>Recruited as the first representative to build out business development efforts, including identifying and penetrating new markets; efforts resulted in a 50% increase in business pipeline in 6 months.</li>
+      <li>Set and exceeded sales targets and increased active clients through effective lead generation and conversion strategies.</li>
+      <li>Drove high client retention and referrals through strong communication and problem-solving.</li>
+      <li>Led prospecting efforts for new clients and provided qualified leads to the sales team.</li>
+    </ul>
+  </article>
+
+  <article class="job">
+    <div class="job-h"><div><h3>Corra Agency</h3><p class="role">Business Development Manager</p></div><span class="dates">July 2022 — January 2023</span></div>
+    <ul>
+      <li>Managed and mentored a team of 3 direct reports to cultivate C-suite connections within the e-commerce sector, exceeding a quarterly target of $2MM by as much as 15%.</li>
+      <li>Targeted 100 phone calls daily.</li>
+      <li>Managed outreach marketing campaigns and engagements to grow brand recognition and contacts.</li>
+      <li>Used Salesforce CRM to generate opportunities, leads, and follow-ups, and streamlined processes for efficiency.</li>
+    </ul>
+    <div class="sub-role"><p class="role">Business Development Representative</p><p class="d">May 2021 — May 2022</p></div>
   </article>
 </section>
 
 <section id="skills">
-  <h2>Skills</h2>
-  <div class="skills">
-    <div><h3>Full-cycle sales</h3><p>Outbound prospecting, qualification, negotiation, and close.</p></div>
-    <div><h3>Partner co-selling</h3><p>BigCommerce, Shopify, and Adobe.</p></div>
-    <div><h3>Sales tools</h3><p>HubSpot, LinkedIn Sales Navigator, and Apollo.</p></div>
-    <div><h3>Team leadership</h3><p>Leading and mentoring BDR teams to consistent pipeline growth.</p></div>
+  <h2>Skills &amp; Expertise</h2>
+  <p class="sub">The toolkit behind the numbers — the sales craft, the platforms I run daily, and the markets I know well.</p>
+  <div class="cards">
+    <div class="card"><h3>Sales Craft</h3><div class="chips"><span class="hl">MEDDIC</span><span>Full-cycle sales</span><span>Outbound prospecting</span><span>Lead generation &amp; qualification</span><span>Contract negotiation</span><span>Partner co-selling</span><span>Territory management</span><span>Sales development</span><span>Team leadership</span></div></div>
+    <div class="card"><h3>Tools &amp; Platforms</h3><div class="chips"><span>Salesforce</span><span>HubSpot</span><span>Outreach</span><span>Apollo.io</span><span>LinkedIn Sales Navigator</span><span>6sense</span><span>ZoomInfo</span><span>Microsoft Office Suite (Word, Excel, PowerPoint)</span></div></div>
+    <div class="card"><h3>Industry &amp; Platform Focus</h3><div class="chips"><span>E-commerce</span><span>Software &amp; services</span><span>BigCommerce</span><span>Shopify</span><span>Adobe</span></div></div>
   </div>
 </section>
 
-<section id="about" class="about">
-  <h2>About</h2>
-  <p>Write two or three sentences here about who you are and what you're looking for next.</p>
+<section id="about">
+  <div class="about">
+    <div>
+      <h2>About</h2>
+      <p>I'm a full-cycle sales professional in Irvine, CA. I started in business development at e-commerce agencies, moved into managing a team of business development reps, and now own the whole sales process at Silk Commerce.</p>
+      <p>I qualify and run deals with the MEDDIC methodology, co-sell with BigCommerce, Shopify, and Adobe, and I like building the outbound motion from scratch: my first cold outreach campaign at Silk Commerce led to a closed-won deal and a new BDR team.</p>
+    </div>
+    <div class="card edu">
+      <h3>Education</h3>
+      <p class="yr">2019</p>
+      <p><b>Concordia University</b>, Irvine, CA</p>
+      <p>Bachelor of Science, Business, Sports Marketing Concentration</p>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0" id="resume">
+  <div class="band">
+    <h2>Take the details with you.</h2>
+    <p>The full résumé — roles, results, and education — in one clean PDF. Handy for keeping on file or sharing with the hiring team.</p>
+    <a class="btn" href="resume.pdf" download>Download Résumé (PDF)</a>
+    <small>Prefer to talk first? Reach me at <a href="mailto:Sean.Goodell1@gmail.com">Sean.Goodell1@gmail.com</a>.</small>
+  </div>
 </section>
 </main>
-<footer>© 2026 Sean Goodell</footer>
+
+<footer style="border-top:1px solid var(--line)"><div class="foot">
+  <div>
+    <h3>Sean M. Goodell</h3>
+    <p>Full-cycle sales in e-commerce software and services.</p>
+    <p>Irvine, CA · Sean.Goodell1@gmail.com · (503) 477-1911</p>
+  </div>
+  <nav aria-label="Footer"><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#about">About</a><a href="resume.pdf">Résumé</a></nav>
+  <div class="icons">
+    <a href="https://www.linkedin.com/in/REPLACE-WITH-YOUR-PROFILE" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9.75h4V21H3zM9.75 9.75h3.8v1.6h.05c.55-1 1.9-2 3.9-2 4.1 0 4.5 2.6 4.5 6V21h-4v-4.9c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6V21h-4z"/></svg></a>
+    <a href="mailto:Sean.Goodell1@gmail.com" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+  </div>
+</div></footer>
 </body>
 </html>
